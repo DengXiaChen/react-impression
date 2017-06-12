@@ -1,4 +1,5 @@
 /node_modules
+/site
 /site/build
 /site/node_modules
 /site/.sass-cache
