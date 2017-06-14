@@ -24,7 +24,8 @@
     "build": "npm run compile:js && npm run compile:scss && npm run compile:minscss",
     "postbuild": "npm run copy && npm publish",
     "prepublish": "npm config set registry http://registry.npmjs.org",
-    "postpublish": "npm config set registry https://registry.npm.taobao.org/"
+    "postpublish": "npm config set registry https://registry.npm.taobao.org/",
+    "test": "jest"
   },
   "dependencies": {
     "classnames": "^2.2.0",
@@ -38,11 +39,25 @@
   "peerDependencies": {
     "react-router": "^3.0.2"
   },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      ".*\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js"
+    },
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.10.1",
     "babel-core": "^6.7.7",
     "babel-eslint": "^6.0.4",
+    "babel-jest": "^20.0.3",
     "babel-loader": "^6.2.4",
     "babel-plugin-syntax-decorators": "^6.8.0",
     "babel-plugin-transform-class-properties": "^6.8.0",
@@ -53,10 +68,11 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "babel-runtime": "^6.11.6",
+    "enzyme": "^2.8.2",
     "eslint": "^3.4.0",
-    "eslint-loader": "^1.6.1",
     "eslint-config-airbnb": "^10.0.1",
     "eslint-config-react-impression": "^1.0.6",
+    "eslint-loader": "^1.6.1",
     "eslint-plugin-babel": "^3.2.0",
     "eslint-plugin-flow-vars": "^0.3.0",
     "eslint-plugin-import": "^1.14.0",
@@ -73,10 +89,13 @@
     "gulp-sass": "^2.3.2",
     "gulp-watch": "^4.3.9",
     "html-webpack-plugin": "^2.16.0",
+    "jest": "^20.0.4",
     "json-loader": "^0.5.4",
     "node-libs-browser": "^1.0.0",
     "node-sass": "^3.6.0",
+    "react-addons-test-utils": "^15.4.1",
     "react-hot-loader": "^3.0.0-beta.6",
+    "react-test-renderer": "^15.5.4",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.0",
     "webpack-dashboard": "^0.1.1",
