@@ -26,8 +26,7 @@
     "prepublish": "npm config set registry http://registry.npmjs.org",
     "postpublish": "npm config set registry https://registry.npm.taobao.org/",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "classnames": "^2.2.0",
