@@ -1,5 +1,5 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import { Attention } from '../../components/impression';
 
 const setup = () => {
@@ -8,7 +8,7 @@ const setup = () => {
         closeable: true,
     };
 
-    const wrapper = mount(
+    const wrapper = shallow(
         <Attention {...props}>
             <Attention.Link href="#">click here</Attention.Link>
         </Attention>
@@ -36,7 +36,10 @@ describe('Attention', () => {
     });
 
     it('link', () => {
-        console.log(wrapper.find('.attention-link').prop('href'));
-        expect(wrapper.find('.attention-link').prop('href')).toBe('#');
+        expect(wrapper.render().find('.attention-link').prop('href')).toBe('#');
+    });
+
+    it('ui', () => {
+        expect(wrapper).toMatchSnapshot();
     });
 });

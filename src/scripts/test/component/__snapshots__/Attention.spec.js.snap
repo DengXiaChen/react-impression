@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Attention ui 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="attention attention-danger"
+>
+    <AttentionLink
+        href="#"
+    >
+        click here
+    </AttentionLink>
+    <button
+        className="close"
+        onClick={[Function]}
+        type="button"
+    >
+        ×
+    </button>
+</div>,
+  "nodes": Array [
+    <div
+      className="attention attention-danger"
+>
+      <AttentionLink
+            href="#"
+      >
+            click here
+      </AttentionLink>
+      <button
+            className="close"
+            onClick={[Function]}
+            type="button"
+      >
+            ×
+      </button>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <Attention
+        closeable={true}
+        theme="danger"
+>
+        <AttentionLink
+                href="#"
+        >
+                click here
+        </AttentionLink>
+</Attention>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Attention {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "hideHandle": [Function],
+        "props": Object {
+          "children": <AttentionLink
+            href="#"
+>
+            click here
+</AttentionLink>,
+          "closeable": true,
+          "theme": "danger",
+        },
+        "refs": Object {},
+        "state": Object {
+          "show": true,
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="attention attention-danger"
+>
+          <AttentionLink
+                    href="#"
+          >
+                    click here
+          </AttentionLink>
+          <button
+                    className="close"
+                    onClick={[Function]}
+                    type="button"
+          >
+                    ×
+          </button>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="attention attention-danger"
+>
+          <AttentionLink
+                    href="#"
+          >
+                    click here
+          </AttentionLink>
+          <button
+                    className="close"
+                    onClick={[Function]}
+                    type="button"
+          >
+                    ×
+          </button>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Attention
+    closeable={true}
+    theme="danger"
+>
+    <AttentionLink
+        href="#"
+    >
+        click here
+    </AttentionLink>
+</Attention>,
+}
+`;
