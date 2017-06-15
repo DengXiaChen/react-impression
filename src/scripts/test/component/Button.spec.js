@@ -46,4 +46,8 @@ describe('Todo', () => {
     it('shape', () => {
         expect(wrapper.find('.btn-pill').exists()).toBe(true);
     });
+
+    it('ui', () => {
+        expect(wrapper).toMatchSnapshot();
+    });
 });

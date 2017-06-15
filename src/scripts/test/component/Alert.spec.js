@@ -41,4 +41,8 @@ describe('Todo', () => {
         wrapper.find('.alert-footer').simulate('click');
         expect(props.onClick).toHaveBeenCalled();
     });
+
+    it('ui', () => {
+        expect(wrapper).toMatchSnapshot();
+    });
 });
