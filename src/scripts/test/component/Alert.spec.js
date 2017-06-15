@@ -18,7 +18,7 @@ const setup = () => {
     };
 };
 
-describe('Todo', () => {
+describe('Alert', () => {
     const { props, wrapper } = setup();
 
     it('render', () => {

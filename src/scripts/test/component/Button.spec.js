@@ -21,7 +21,7 @@ const setup = () => {
     };
 };
 
-describe('Todo', () => {
+describe('Button', () => {
     const { props, wrapper } = setup();
 
     // 通过 input 是否存在来判断 Todo组件是否被渲染
