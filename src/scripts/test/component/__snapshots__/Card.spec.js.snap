@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card ui 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="card card-block no-border"
+>
+    <CardHeader>
+        header
+    </CardHeader>
+    <CardBlock>
+        block
+    </CardBlock>
+    <CardFooter>
+        footer
+    </CardFooter>
+</div>,
+  "nodes": Array [
+    <div
+      className="card card-block no-border"
+>
+      <CardHeader>
+            header
+      </CardHeader>
+      <CardBlock>
+            block
+      </CardBlock>
+      <CardFooter>
+            footer
+      </CardFooter>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <Card
+        block={true}
+        noborder={true}
+>
+        <CardHeader>
+                header
+        </CardHeader>
+        <CardBlock>
+                block
+        </CardBlock>
+        <CardFooter>
+                footer
+        </CardFooter>
+</Card>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Card {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "block": true,
+          "children": Array [
+            <CardHeader>
+              header
+</CardHeader>,
+            <CardBlock>
+              block
+</CardBlock>,
+            <CardFooter>
+              footer
+</CardFooter>,
+          ],
+          "noborder": true,
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="card card-block no-border"
+>
+          <CardHeader>
+                    header
+          </CardHeader>
+          <CardBlock>
+                    block
+          </CardBlock>
+          <CardFooter>
+                    footer
+          </CardFooter>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="card card-block no-border"
+>
+          <CardHeader>
+                    header
+          </CardHeader>
+          <CardBlock>
+                    block
+          </CardBlock>
+          <CardFooter>
+                    footer
+          </CardFooter>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Card
+    block={true}
+    noborder={true}
+>
+    <CardHeader>
+        header
+    </CardHeader>
+    <CardBlock>
+        block
+    </CardBlock>
+    <CardFooter>
+        footer
+    </CardFooter>
+</Card>,
+}
+`;
