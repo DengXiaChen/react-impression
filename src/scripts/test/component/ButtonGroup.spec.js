@@ -29,15 +29,16 @@ describe('ButtonGroup', () => {
 
     it('render', () => {
         expect(wrapper.find('.btn-group').exists()).toBe(true);
+        expect(wrapper.find('Button')).toHaveLength(3);
     });
 
     it('size', () => {
         expect(wrapper.find('.btn-group-lg').exists()).toBe(true);
     });
 
-    it('theme', () => {
-        expect(wrapper.find('Button')).toHaveLength(3);
-    });
+    // it('theme', () => {
+    //     expect(wrapper.find('.btn-secondary').exists()).toBe(true);
+    // });
 
     it('activeKey', () => {
         expect(wrapper.state().activeKey).toBe('right');

@@ -31,7 +31,6 @@ const setup = () => {
 describe('Card', () => {
     const { wrapper } = setup();
 
-    // 通过 input 是否存在来判断 Todo组件是否被渲染
     it('render', () => {
         expect(wrapper.find('.card').exists()).toBe(true);
         expect(wrapper.find('CardHeader').children().text()).toBe('header');

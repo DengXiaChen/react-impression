@@ -21,7 +21,6 @@ const setup = () => {
 describe('Badge', () => {
     const { props, wrapper } = setup();
 
-    // 通过 input 是否存在来判断 Todo组件是否被渲染
     it('render', () => {
         expect(wrapper.find('.badge').exists()).toBe(true);
     });
