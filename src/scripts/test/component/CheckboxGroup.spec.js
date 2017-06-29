@@ -23,7 +23,7 @@ const setup = () => {
 };
 
 describe('CheckboxGroup', () => {
-    const { props, wrapper } = setup();
+    const { wrapper } = setup();
 
     it('render', () => {
         expect(wrapper.find('.checkbox-inline').exists()).toBe(true);
