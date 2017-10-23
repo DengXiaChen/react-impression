@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown ui 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="dropdown active"
+>
+    <DropdownTrigger
+        toggleMenu={[Function]}
+        trigger="click"
+    >
+        <Button
+            theme="primary"
+        >
+            Dropdown
+        </Button>
+    </DropdownTrigger>
+    <DropdownMenu
+        right={false}
+        toggleMenu={[Function]}
+        trigger="click"
+    >
+        <DropdownMenuItem
+            disabled={true}
+            onClick={[Function]}
+        >
+            菜单一
+        </DropdownMenuItem>
+        <DropdownMenuItem
+            disabled={false}
+            onClick={[Function]}
+        >
+            菜单二
+        </DropdownMenuItem>
+        <DropdownMenuItem
+            disabled={false}
+            onClick={[Function]}
+        >
+            菜单三
+        </DropdownMenuItem>
+        <DropdownMenuDivider />
+        <DropdownMenuItem
+            disabled={false}
+            onClick={[Function]}
+        >
+            菜单四
+        </DropdownMenuItem>
+        <DropdownMenuItem
+            disabled={false}
+            onClick={[Function]}
+        >
+            菜单五
+        </DropdownMenuItem>
+        <DropdownMenuItem
+            disabled={false}
+            onClick={[Function]}
+        >
+            菜单六
+        </DropdownMenuItem>
+    </DropdownMenu>
+</div>,
+  "nodes": Array [
+    <div
+      className="dropdown active"
+>
+      <DropdownTrigger
+            toggleMenu={[Function]}
+            trigger="click"
+      >
+            <Button
+                  theme="primary"
+            >
+                  Dropdown
+            </Button>
+      </DropdownTrigger>
+      <DropdownMenu
+            right={false}
+            toggleMenu={[Function]}
+            trigger="click"
+      >
+            <DropdownMenuItem
+                  disabled={true}
+                  onClick={[Function]}
+            >
+                  菜单一
+            </DropdownMenuItem>
+            <DropdownMenuItem
+                  disabled={false}
+                  onClick={[Function]}
+            >
+                  菜单二
+            </DropdownMenuItem>
+            <DropdownMenuItem
+                  disabled={false}
+                  onClick={[Function]}
+            >
+                  菜单三
+            </DropdownMenuItem>
+            <DropdownMenuDivider />
+            <DropdownMenuItem
+                  disabled={false}
+                  onClick={[Function]}
+            >
+                  菜单四
+            </DropdownMenuItem>
+            <DropdownMenuItem
+                  disabled={false}
+                  onClick={[Function]}
+            >
+                  菜单五
+            </DropdownMenuItem>
+            <DropdownMenuItem
+                  disabled={false}
+                  onClick={[Function]}
+            >
+                  菜单六
+            </DropdownMenuItem>
+      </DropdownMenu>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <Dropdown
+        active={true}
+        trigger="click"
+>
+        <DropdownTrigger>
+                <Button
+                        theme="primary"
+                >
+                        Dropdown
+                </Button>
+        </DropdownTrigger>
+        <DropdownMenu
+                right={false}
+        >
+                <DropdownMenuItem
+                        disabled={true}
+                        onClick={[Function]}
+                >
+                        菜单一
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                        disabled={false}
+                        onClick={[Function]}
+                >
+                        菜单二
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                        disabled={false}
+                        onClick={[Function]}
+                >
+                        菜单三
+                </DropdownMenuItem>
+                <DropdownMenuDivider />
+                <DropdownMenuItem
+                        disabled={false}
+                        onClick={[Function]}
+                >
+                        菜单四
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                        disabled={false}
+                        onClick={[Function]}
+                >
+                        菜单五
+                </DropdownMenuItem>
+                <DropdownMenuItem
+                        disabled={false}
+                        onClick={[Function]}
+                >
+                        菜单六
+                </DropdownMenuItem>
+        </DropdownMenu>
+</Dropdown>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Dropdown {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "hideOptionsHandle": [Function],
+        "props": Object {
+          "active": true,
+          "children": Array [
+            <DropdownTrigger>
+              <Button
+                            theme="primary"
+              >
+                            Dropdown
+              </Button>
+</DropdownTrigger>,
+            <DropdownMenu
+              right={false}
+>
+              <DropdownMenuItem
+                            disabled={true}
+                            onClick={[Function]}
+              >
+                            菜单一
+              </DropdownMenuItem>
+              <DropdownMenuItem
+                            disabled={false}
+                            onClick={[Function]}
+              >
+                            菜单二
+              </DropdownMenuItem>
+              <DropdownMenuItem
+                            disabled={false}
+                            onClick={[Function]}
+              >
+                            菜单三
+              </DropdownMenuItem>
+              <DropdownMenuDivider />
+              <DropdownMenuItem
+                            disabled={false}
+                            onClick={[Function]}
+              >
+                            菜单四
+              </DropdownMenuItem>
+              <DropdownMenuItem
+                            disabled={false}
+                            onClick={[Function]}
+              >
+                            菜单五
+              </DropdownMenuItem>
+              <DropdownMenuItem
+                            disabled={false}
+                            onClick={[Function]}
+              >
+                            菜单六
+              </DropdownMenuItem>
+</DropdownMenu>,
+          ],
+          "trigger": "click",
+        },
+        "refs": Object {},
+        "state": Object {
+          "active": true,
+        },
+        "toggleOptionsHandle": [Function],
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="dropdown active"
+>
+          <DropdownTrigger
+                    toggleMenu={[Function]}
+                    trigger="click"
+          >
+                    <Button
+                              theme="primary"
+                    >
+                              Dropdown
+                    </Button>
+          </DropdownTrigger>
+          <DropdownMenu
+                    right={false}
+                    toggleMenu={[Function]}
+                    trigger="click"
+          >
+                    <DropdownMenuItem
+                              disabled={true}
+                              onClick={[Function]}
+                    >
+                              菜单一
+                    </DropdownMenuItem>
+                    <DropdownMenuItem
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              菜单二
+                    </DropdownMenuItem>
+                    <DropdownMenuItem
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              菜单三
+                    </DropdownMenuItem>
+                    <DropdownMenuDivider />
+                    <DropdownMenuItem
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              菜单四
+                    </DropdownMenuItem>
+                    <DropdownMenuItem
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              菜单五
+                    </DropdownMenuItem>
+                    <DropdownMenuItem
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              菜单六
+                    </DropdownMenuItem>
+          </DropdownMenu>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="dropdown active"
+>
+          <DropdownTrigger
+                    toggleMenu={[Function]}
+                    trigger="click"
+          >
+                    <Button
+                              theme="primary"
+                    >
+                              Dropdown
+                    </Button>
+          </DropdownTrigger>
+          <DropdownMenu
+                    right={false}
+                    toggleMenu={[Function]}
+                    trigger="click"
+          >
+                    <DropdownMenuItem
+                              disabled={true}
+                              onClick={[Function]}
+                    >
+                              菜单一
+                    </DropdownMenuItem>
+                    <DropdownMenuItem
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              菜单二
+                    </DropdownMenuItem>
+                    <DropdownMenuItem
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              菜单三
+                    </DropdownMenuItem>
+                    <DropdownMenuDivider />
+                    <DropdownMenuItem
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              菜单四
+                    </DropdownMenuItem>
+                    <DropdownMenuItem
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              菜单五
+                    </DropdownMenuItem>
+                    <DropdownMenuItem
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              菜单六
+                    </DropdownMenuItem>
+          </DropdownMenu>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Dropdown
+    active={true}
+    trigger="click"
+>
+    <DropdownTrigger>
+        <Button
+            theme="primary"
+        >
+            Dropdown
+        </Button>
+    </DropdownTrigger>
+    <DropdownMenu
+        right={false}
+    >
+        <DropdownMenuItem
+            disabled={true}
+            onClick={[Function]}
+        >
+            菜单一
+        </DropdownMenuItem>
+        <DropdownMenuItem
+            disabled={false}
+            onClick={[Function]}
+        >
+            菜单二
+        </DropdownMenuItem>
+        <DropdownMenuItem
+            disabled={false}
+            onClick={[Function]}
+        >
+            菜单三
+        </DropdownMenuItem>
+        <DropdownMenuDivider />
+        <DropdownMenuItem
+            disabled={false}
+            onClick={[Function]}
+        >
+            菜单四
+        </DropdownMenuItem>
+        <DropdownMenuItem
+            disabled={false}
+            onClick={[Function]}
+        >
+            菜单五
+        </DropdownMenuItem>
+        <DropdownMenuItem
+            disabled={false}
+            onClick={[Function]}
+        >
+            菜单六
+        </DropdownMenuItem>
+    </DropdownMenu>
+</Dropdown>,
+}
+`;
