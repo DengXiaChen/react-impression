@@ -571,7 +571,7 @@ ShallowWrapper {
                 </div>
             </div>
             <div
-                className="calendar-daygroup-item active"
+                className="calendar-daygroup-item"
                 onClick={[Function]}
             >
                 <div
@@ -741,7 +741,7 @@ ShallowWrapper {
                 </div>
             </div>
             <div
-                className="calendar-daygroup-item disabled"
+                className="calendar-daygroup-item disabled active"
                 onClick={[Function]}
             >
                 <div
@@ -1375,7 +1375,7 @@ ShallowWrapper {
                         </div>
                   </div>
                   <div
-                        className="calendar-daygroup-item active"
+                        className="calendar-daygroup-item"
                         onClick={[Function]}
                   >
                         <div
@@ -1545,7 +1545,7 @@ ShallowWrapper {
                         </div>
                   </div>
                   <div
-                        className="calendar-daygroup-item disabled"
+                        className="calendar-daygroup-item disabled active"
                         onClick={[Function]}
                   >
                         <div
@@ -2299,7 +2299,7 @@ ShallowWrapper {
                                         </div>
                               </div>
                               <div
-                                        className="calendar-daygroup-item active"
+                                        className="calendar-daygroup-item"
                                         onClick={[Function]}
                               >
                                         <div
@@ -2469,7 +2469,7 @@ ShallowWrapper {
                                         </div>
                               </div>
                               <div
-                                        className="calendar-daygroup-item disabled"
+                                        className="calendar-daygroup-item disabled active"
                                         onClick={[Function]}
                               >
                                         <div
@@ -3103,7 +3103,7 @@ ShallowWrapper {
                                         </div>
                               </div>
                               <div
-                                        className="calendar-daygroup-item active"
+                                        className="calendar-daygroup-item"
                                         onClick={[Function]}
                               >
                                         <div
@@ -3273,7 +3273,7 @@ ShallowWrapper {
                                         </div>
                               </div>
                               <div
-                                        className="calendar-daygroup-item disabled"
+                                        className="calendar-daygroup-item disabled active"
                                         onClick={[Function]}
                               >
                                         <div
